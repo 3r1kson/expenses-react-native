@@ -8,7 +8,7 @@ import ManageExpense from './app/screens/ManageExpense';
 import RecentExpenses from './app/screens/RecentExpenses';
 import AllExpenses from './app/screens/AllExpenses';
 import { GlobalStyles } from './app/constants/styles';
-import IconButton from './app/components/ExpensesOutput/UI/IconButton';
+import IconButton from './app/components/UI/IconButton';
 import ExpensesContextProvider from './app/store/expenses-context';
 
 const Stack = createNativeStackNavigator();
